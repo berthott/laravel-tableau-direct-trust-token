@@ -1,0 +1,37 @@
+{
+  "name": "berthott/laravel-tableau-direct-trust-token",
+  "description": "A Laravel Tableau Direct Trust Token generator",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Jan Bladt",
+          "email": "berthott@web.de"
+      }
+  ],
+  "autoload" : {
+      "psr-4" : {
+          "berthott\\Tableau\\": "src"
+      }
+  },
+  "autoload-dev": {
+      "psr-4": {
+          "berthott\\Tableau\\Tests\\": "tests"
+      }
+  },
+  "extra" : {
+      "laravel" : {
+          "providers" : [
+              "berthott\\Tableau\\TableauDirectTrustTokenProvider"
+          ]
+      }
+  },
+  "require-dev": {
+    "orchestra/testbench": "^8.0",
+    "phpunit/phpunit": "^10.0"
+  },
+  "require": {
+    "firebase/php-jwt": "^6.10",
+    "paragonie/sodium_compat": "^2.1",
+    "ramsey/uuid": "^4.7"
+  }
+}

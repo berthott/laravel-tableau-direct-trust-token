@@ -1,3 +1,5 @@
+![test workflow](https://github.com/berthott/laravel-tableau-direct-trust-token/actions/workflows/test.yml/badge.svg)
+
 # Laravel-Tableau-Direct-Trust-Token
 
 Create an API Token for a Tableau Cloud Direct Trust integration.
